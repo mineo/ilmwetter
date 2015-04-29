@@ -9,6 +9,3 @@ DEFAULT_ITEM_CLASS = 'ilmwetter.items.IlmwetterItem'
 ITEM_PIPELINES = {
     'ilmwetter.pipelines.IlmwetterPipeline': 100
 }
-
-FEED_URI = 'file:///tmp/scrapyfeed.csv'
-FEED_FORMAT = 'csv'
