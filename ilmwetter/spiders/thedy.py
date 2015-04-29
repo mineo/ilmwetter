@@ -38,4 +38,4 @@ class ThedySpider(scrapy.Spider):
         item["wind_direction"] = self.extract_by_text(response, "Windrichtung")
         item["wind_speed"] = self.extract_by_text(response,
                                                   "Windgeschwindigkeit")
-        return item
+        yield item
