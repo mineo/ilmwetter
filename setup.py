@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name             = 'ilmwetter',
-    version          = '0.1',
+    version          = '0.2',
     packages         = find_packages(),
     entry_points     = {'scrapy': ['settings = ilmwetter.settings']},
     description      = "Scrapy spider for the weather in Ilmenau",
