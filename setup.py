@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name             = 'ilmwetter',
     version          = '0.2',
-    packages         = find_packages(),
+    packages         = find_packages(exclude=["openwhisk"]),
     entry_points     = {'scrapy': ['settings = ilmwetter.settings']},
     description      = "Scrapy spider for the weather in Ilmenau",
     author           = "Wieland Hoffmann",
