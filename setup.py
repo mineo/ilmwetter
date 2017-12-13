@@ -9,7 +9,7 @@ setup(
     author           = "Wieland Hoffmann",
     install_requires = ["scrapy"],
     url              = "https://github.com/mineo/ilmwetter",
-    download_url     = ["https://github.com/mineo/ilmwetter/tarball/master"],
+    download_url     = "https://github.com/mineo/ilmwetter/tarball/master",
     license          = "MIT",
     classifiers      = ["Development Status :: 4 - Beta",
                         "Environment :: Console",
